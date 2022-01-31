@@ -1,0 +1,60 @@
+# Open-boundaries
+ &OBCS_PARM01
+ OB_Ieast=240*-1,
+# OB_Iwest=720*1,
+ OB_Jnorth=184*-1,
+ OB_Jsouth=184*1,
+
+ useOBCSprescribe=.true.,
+ useOBCSsponge=.true.,
+ useOBCStides=.true.,
+ useOBCSbalance=.false.,
+
+# OBEtFile='OBEt_025deg_Monthly_S_34_2_T_fp',
+# OBEsFile='OBEs_025deg_Monthly_S_34_2_T_fp',
+ 
+# OBEuFile='OBEu_ecco2_025deg_Annual32',
+# OBEvFile='OBEv_ecco2_025deg_Annual32',
+
+# OBEaFile='OBEa_SO_025deg_Annual32',
+# OBEhFile='OBEh_SO_025deg_Annual32',
+# OBEuiceFile='OBEuice_SO_025deg_Annual32',
+# OBEviceFile='OBEvice_SO_025deg_Annual32',
+
+ OBEamFile='OBEam.seaice_obcs',
+ OBEphFile='OBEph.seaice_obcs',
+ OBNamFile='OBNam.seaice_obcs',
+ OBNphFile='OBNph.seaice_obcs',
+ OBSamFile='OBSam.seaice_obcs',
+ OBSphFile='OBSph.seaice_obcs',
+
+#components  = M2       S2     N2       K2       K1      O1       P1      Q1 MF	MM
+#periods(hr) = 12.4206  12     12.6583  11.9672  23.9345 25.8193  24.0659 26.8684 327.9 661.3
+ tidalperiod = 44714.17,43200.,45570.05,43082.05,86164.08,92949.64,86637.20,96726.09,1180295.55,2380715.86,
+# tidalperiod = 43200.,86400.,
+# tidalperiod = 43200.,
+ 
+# OBCS_balanceFacN = 1.,
+# OBCS_balanceFacE = 1.,
+# OBCS_balanceFacS = 0.,
+# OBCS_balanceFacN = 0.,
+ &
+
+# Orlanski parameters
+ &OBCS_PARM02
+# Cmax=0.45,
+# cVelTimeScale=1000.,
+ &
+
+ &OBCS_PARM03
+ spongeThickness = 10,
+ Urelaxobcsinner = 2592000.,
+ Vrelaxobcsinner = 2592000.,
+ Urelaxobcsbound = 60.,
+ Vrelaxobcsbound = 60.,
+ &
+
+
+
+
+
