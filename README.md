@@ -1,5 +1,5 @@
 # LCIS_paper
-Code, input files and model outout data used for figures and analysis in manuscript: 
+Code, input files and model output data used for figures and analysis in manuscript: 
 Harrison et al., Sensitivity of melting, freezing and marine ice beneath Larsen C Ice Shelf to changes in ocean forcing. Submitted to GRL, 2021.
 
 Code and input files to run using the MITgcm model are in the relevant folders. 
