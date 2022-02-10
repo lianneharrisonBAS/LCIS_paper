@@ -1,10 +1,10 @@
 # LCIS_paper
-Code, input files and model output data used for figures and analysis in manuscript: 
+Code, input files and some model output data used for figures and analysis in manuscript: 
 Harrison et al., Sensitivity of melting, freezing and marine ice beneath Larsen C Ice Shelf to changes in ocean forcing. Submitted to GRL, 2021.
 
 Code and input files to run using the MITgcm model are in the relevant folders. 
 
-All data are in Matlab structures as follows:
+Model output data are in Matlab structures as follows:
 
 Bathymetry, ice base topography, water-column thickness, melt rate, sub-ice velocities and speed, and barotropic streamfunction for the standard run are provided in Brisbourne.mat.
 
@@ -16,3 +16,4 @@ Tidal_validation.mat holds the model timeseries data presented in the Supplement
 
 The barotropic streamfunction for the simulation only forced by tides (no thermodynamic exchange with the ice shelf) is given in Tides_only.mat.
 
+These data and all other data underlying the figures and analysis of the paper (including marine ice fields) are available in netCDF form from the UK Polar Data Centre: https://doi.org/10.5285/A54C795C-E0EE-49CB-99DD-BEFBDC4A70F0
