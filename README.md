@@ -1,6 +1,6 @@
 # LCIS_paper
 Code, input files and some model output data used for figures and analysis in manuscript: 
-Harrison et al., Sensitivity of melting, freezing and marine ice beneath Larsen C Ice Shelf to changes in ocean forcing. Submitted to GRL, 2021.
+Harrison, L. C., Holland, P. R., Heywood, K. J., Nicholls, K. W., & Brisbourne, A. M. (2022). Sensitivity of melting, freezing and marine ice beneath Larsen C Ice Shelf to changes in ocean forcing. Geophysical Research Letters, 49, e2021GL096914. https://doi.org/10.1029/2021GL096914
 
 Code and input files to run using the MITgcm model are in the relevant folders. 
 
